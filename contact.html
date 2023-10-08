@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kashif Writes - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Kashif Writes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us:</p>
+        <ul>
+            <li>Email: kashifsaeedjadoon5@gmail.com</li>
+            <li>Phone: +923459705695</li>
+        </ul>
+        <p>Or use the form below:</p>
+        <form action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Kashif Writes</p>
+    </footer>
+</body>
+</html>
